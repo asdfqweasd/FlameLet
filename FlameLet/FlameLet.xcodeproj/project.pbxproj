@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39E8FFE428FBD5CC00DCBCB9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8FFE328FBD5CC00DCBCB9 /* UserInfo.swift */; };
+		39E8FFEA28FC1C4B00DCBCB9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8FFE928FC1C4B00DCBCB9 /* LoginView.swift */; };
+		39E8FFEC28FC1C5D00DCBCB9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8FFEB28FC1C5D00DCBCB9 /* LoginViewModel.swift */; };
+		A80CA22628FD01B50082881A /* receivedCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80CA22528FD01B50082881A /* receivedCommentView.swift */; };
+		A8A77FBE28FC285A00C666BA /* personView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A77FBD28FC285A00C666BA /* personView.swift */; };
+		E02FDAFD28FD271B00C03D05 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDAFC28FD271B00C03D05 /* Forum.swift */; };
+		E02FDAFF28FD272900C03D05 /* TreeHoleForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDAFE28FD272900C03D05 /* TreeHoleForum.swift */; };
+		E02FDB0128FD275C00C03D05 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDB0028FD275C00C03D05 /* Post.swift */; };
+		E02FDB0328FD278B00C03D05 /* treeHole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDB0228FD278B00C03D05 /* treeHole.swift */; };
+		E02FDB0528FD279D00C03D05 /* ShareTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDB0428FD279D00C03D05 /* ShareTime.swift */; };
+		E02FDB0728FD27B600C03D05 /* PostDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDB0628FD27B600C03D05 /* PostDetailRow.swift */; };
+		E02FDB0928FD27C900C03D05 /* PostDetailTreeHole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDB0828FD27C900C03D05 /* PostDetailTreeHole.swift */; };
+		E02FDB0B28FD2AA600C03D05 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDB0A28FD2AA600C03D05 /* PostRow.swift */; };
+		E02FDB0D28FD2C0E00C03D05 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FDB0C28FD2C0E00C03D05 /* PostDetail.swift */; };
+		E0AD000928FA7D84007A5FC7 /* TaskWithFlemateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000028FA7D84007A5FC7 /* TaskWithFlemateView.swift */; };
+		E0AD000A28FA7D84007A5FC7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000128FA7D84007A5FC7 /* CalendarView.swift */; };
+		E0AD000B28FA7D84007A5FC7 /* SingleProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000228FA7D84007A5FC7 /* SingleProjectView.swift */; };
+		E0AD000C28FA7D84007A5FC7 /* TaskManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000328FA7D84007A5FC7 /* TaskManagerView.swift */; };
+		E0AD000D28FA7D84007A5FC7 /* SingleTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000428FA7D84007A5FC7 /* SingleTaskView.swift */; };
+		E0AD000E28FA7D84007A5FC7 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000528FA7D84007A5FC7 /* AddTaskView.swift */; };
+		E0AD000F28FA7D84007A5FC7 /* AddProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000628FA7D84007A5FC7 /* AddProjectView.swift */; };
+		E0AD001028FA7D84007A5FC7 /* CalendarAddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000728FA7D84007A5FC7 /* CalendarAddTaskView.swift */; };
+		E0AD001128FA7D84007A5FC7 /* TaskAchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD000828FA7D84007A5FC7 /* TaskAchievementsView.swift */; };
+		E0AD001328FA7D91007A5FC7 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD001228FA7D91007A5FC7 /* MainPage.swift */; };
+		E0AD001628FA7DA4007A5FC7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD001428FA7DA4007A5FC7 /* Home.swift */; };
+		E0AD001C28FA7DF7007A5FC7 /* manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD001B28FA7DF7007A5FC7 /* manager.swift */; };
+		E0AD002028FA7E00007A5FC7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD001D28FA7E00007A5FC7 /* ColorExtension.swift */; };
+		E0AD002228FA7E00007A5FC7 /* PostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD001F28FA7E00007A5FC7 /* PostPage.swift */; };
+		E0AD002628FA7E09007A5FC7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD002328FA7E09007A5FC7 /* Task.swift */; };
+		E0AD002728FA7E09007A5FC7 /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD002428FA7E09007A5FC7 /* CalendarDate.swift */; };
+		E0AD002828FA7E09007A5FC7 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD002528FA7E09007A5FC7 /* Project.swift */; };
+		E0AD002B28FA7F94007A5FC7 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E0AD002A28FA7F94007A5FC7 /* Realm */; };
+		E0AD002D28FA7F94007A5FC7 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E0AD002C28FA7F94007A5FC7 /* RealmSwift */; };
+		E0AD003028FA8029007A5FC7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E0AD002F28FA8029007A5FC7 /* Alamofire */; };
+		E0ADFFB728FA7C30007A5FC7 /* FlameLetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFB628FA7C30007A5FC7 /* FlameLetApp.swift */; };
+		E0ADFFB928FA7C30007A5FC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFB828FA7C30007A5FC7 /* ContentView.swift */; };
+		E0ADFFBB28FA7C31007A5FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0ADFFBA28FA7C31007A5FC7 /* Assets.xcassets */; };
+		E0ADFFBE28FA7C31007A5FC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0ADFFBD28FA7C31007A5FC7 /* Preview Assets.xcassets */; };
+		E0ADFFE328FA7D57007A5FC7 /* WriteRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFDE28FA7D57007A5FC7 /* WriteRating.swift */; };
+		E0ADFFE428FA7D57007A5FC7 /* ManagerRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFDF28FA7D57007A5FC7 /* ManagerRating.swift */; };
+		E0ADFFE528FA7D57007A5FC7 /* starRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFE028FA7D57007A5FC7 /* starRating.swift */; };
+		E0ADFFE628FA7D57007A5FC7 /* ManagerRatingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFE128FA7D57007A5FC7 /* ManagerRatingList.swift */; };
+		E0ADFFE728FA7D57007A5FC7 /* ManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFE228FA7D57007A5FC7 /* ManagerView.swift */; };
+		E0ADFFE928FA7D61007A5FC7 /* FlameLetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFE828FA7D61007A5FC7 /* FlameLetView.swift */; };
+		E0ADFFF728FA7D6A007A5FC7 /* NewPostTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFED28FA7D6A007A5FC7 /* NewPostTest.swift */; };
+		E0ADFFF928FA7D6A007A5FC7 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFEF28FA7D6A007A5FC7 /* PostList.swift */; };
+		E0ADFFFD28FA7D6A007A5FC7 /* NewPostTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ADFFF328FA7D6A007A5FC7 /* NewPostTree.swift */; };
+		E0C6744428FA84DC009C805F /* ManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6744328FA84DC009C805F /* ManagerViewModel.swift */; };
+		E0C6744D28FA854B009C805F /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6744B28FA854B009C805F /* ProjectViewModel.swift */; };
+		E0C6744E28FA854B009C805F /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6744C28FA854B009C805F /* TaskManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39E8FFE328FBD5CC00DCBCB9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		39E8FFE928FC1C4B00DCBCB9 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		39E8FFEB28FC1C5D00DCBCB9 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A80CA22528FD01B50082881A /* receivedCommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = receivedCommentView.swift; sourceTree = "<group>"; };
+		A8A77FBD28FC285A00C666BA /* personView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personView.swift; sourceTree = "<group>"; };
+		E02FDAFC28FD271B00C03D05 /* Forum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		E02FDAFE28FD272900C03D05 /* TreeHoleForum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeHoleForum.swift; sourceTree = "<group>"; };
+		E02FDB0028FD275C00C03D05 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E02FDB0228FD278B00C03D05 /* treeHole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = treeHole.swift; sourceTree = "<group>"; };
+		E02FDB0428FD279D00C03D05 /* ShareTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareTime.swift; sourceTree = "<group>"; };
+		E02FDB0628FD27B600C03D05 /* PostDetailRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailRow.swift; sourceTree = "<group>"; };
+		E02FDB0828FD27C900C03D05 /* PostDetailTreeHole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailTreeHole.swift; sourceTree = "<group>"; };
+		E02FDB0A28FD2AA600C03D05 /* PostRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		E02FDB0C28FD2C0E00C03D05 /* PostDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
+		E0AD000028FA7D84007A5FC7 /* TaskWithFlemateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskWithFlemateView.swift; sourceTree = "<group>"; };
+		E0AD000128FA7D84007A5FC7 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E0AD000228FA7D84007A5FC7 /* SingleProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleProjectView.swift; sourceTree = "<group>"; };
+		E0AD000328FA7D84007A5FC7 /* TaskManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManagerView.swift; sourceTree = "<group>"; };
+		E0AD000428FA7D84007A5FC7 /* SingleTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleTaskView.swift; sourceTree = "<group>"; };
+		E0AD000528FA7D84007A5FC7 /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		E0AD000628FA7D84007A5FC7 /* AddProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProjectView.swift; sourceTree = "<group>"; };
+		E0AD000728FA7D84007A5FC7 /* CalendarAddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarAddTaskView.swift; sourceTree = "<group>"; };
+		E0AD000828FA7D84007A5FC7 /* TaskAchievementsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAchievementsView.swift; sourceTree = "<group>"; };
+		E0AD001228FA7D91007A5FC7 /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		E0AD001428FA7DA4007A5FC7 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E0AD001B28FA7DF7007A5FC7 /* manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = manager.swift; sourceTree = "<group>"; };
+		E0AD001D28FA7E00007A5FC7 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E0AD001F28FA7E00007A5FC7 /* PostPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPage.swift; sourceTree = "<group>"; };
+		E0AD002328FA7E09007A5FC7 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E0AD002428FA7E09007A5FC7 /* CalendarDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDate.swift; sourceTree = "<group>"; };
+		E0AD002528FA7E09007A5FC7 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		E0ADFFB328FA7C30007A5FC7 /* FlameLet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlameLet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0ADFFB628FA7C30007A5FC7 /* FlameLetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlameLetApp.swift; sourceTree = "<group>"; };
+		E0ADFFB828FA7C30007A5FC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0ADFFBA28FA7C31007A5FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0ADFFBD28FA7C31007A5FC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0ADFFDE28FA7D57007A5FC7 /* WriteRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteRating.swift; sourceTree = "<group>"; };
+		E0ADFFDF28FA7D57007A5FC7 /* ManagerRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerRating.swift; sourceTree = "<group>"; };
+		E0ADFFE028FA7D57007A5FC7 /* starRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = starRating.swift; sourceTree = "<group>"; };
+		E0ADFFE128FA7D57007A5FC7 /* ManagerRatingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerRatingList.swift; sourceTree = "<group>"; };
+		E0ADFFE228FA7D57007A5FC7 /* ManagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
+		E0ADFFE828FA7D61007A5FC7 /* FlameLetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlameLetView.swift; sourceTree = "<group>"; };
+		E0ADFFED28FA7D6A007A5FC7 /* NewPostTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostTest.swift; sourceTree = "<group>"; };
+		E0ADFFEF28FA7D6A007A5FC7 /* PostList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		E0ADFFF328FA7D6A007A5FC7 /* NewPostTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostTree.swift; sourceTree = "<group>"; };
+		E0C6744328FA84DC009C805F /* ManagerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerViewModel.swift; sourceTree = "<group>"; };
+		E0C6744B28FA854B009C805F /* ProjectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		E0C6744C28FA854B009C805F /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0ADFFB028FA7C30007A5FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AD003028FA8029007A5FC7 /* Alamofire in Frameworks */,
+				E0AD002D28FA7F94007A5FC7 /* RealmSwift in Frameworks */,
+				E0AD002B28FA7F94007A5FC7 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A81C4B3B28FAAAEF00224A2B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				39E8FFEB28FC1C5D00DCBCB9 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E0AD001828FA7DCC007A5FC7 /* Anonymous_rating */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD001B28FA7DF7007A5FC7 /* manager.swift */,
+			);
+			path = Anonymous_rating;
+			sourceTree = "<group>";
+		};
+		E0AD001928FA7DE2007A5FC7 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD001D28FA7E00007A5FC7 /* ColorExtension.swift */,
+				E02FDB0028FD275C00C03D05 /* Post.swift */,
+				E0AD001F28FA7E00007A5FC7 /* PostPage.swift */,
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		E0AD001A28FA7DE8007A5FC7 /* Task_management */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD002428FA7E09007A5FC7 /* CalendarDate.swift */,
+				E0AD002528FA7E09007A5FC7 /* Project.swift */,
+				E0AD002328FA7E09007A5FC7 /* Task.swift */,
+			);
+			path = Task_management;
+			sourceTree = "<group>";
+		};
+		E0ADFFAA28FA7C30007A5FC7 = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFB528FA7C30007A5FC7 /* FlameLet */,
+				E0ADFFB428FA7C30007A5FC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0ADFFB428FA7C30007A5FC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFB328FA7C30007A5FC7 /* FlameLet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0ADFFB528FA7C30007A5FC7 /* FlameLet */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFC428FA7C4D007A5FC7 /* Model */,
+				E0ADFFC528FA7C5A007A5FC7 /* View */,
+				E0ADFFC628FA7C72007A5FC7 /* ViewModel */,
+				E0ADFFB628FA7C30007A5FC7 /* FlameLetApp.swift */,
+				E0ADFFB828FA7C30007A5FC7 /* ContentView.swift */,
+				E0ADFFBA28FA7C31007A5FC7 /* Assets.xcassets */,
+				E0ADFFBC28FA7C31007A5FC7 /* Preview Content */,
+			);
+			path = FlameLet;
+			sourceTree = "<group>";
+		};
+		E0ADFFBC28FA7C31007A5FC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFBD28FA7C31007A5FC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0ADFFC428FA7C4D007A5FC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD001A28FA7DE8007A5FC7 /* Task_management */,
+				E0AD001928FA7DE2007A5FC7 /* Forum */,
+				E0AD001828FA7DCC007A5FC7 /* Anonymous_rating */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0ADFFC528FA7C5A007A5FC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFDD28FA7D48007A5FC7 /* Task_management */,
+				E0ADFFDC28FA7D39007A5FC7 /* main_Page */,
+				E0ADFFDB28FA7D2C007A5FC7 /* LogIn */,
+				E0ADFFDA28FA7D22007A5FC7 /* Forum */,
+				E0ADFFD928FA7D15007A5FC7 /* FlameLet */,
+				E0ADFFD828FA7D02007A5FC7 /* Anonymous_rating */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0ADFFC628FA7C72007A5FC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A81C4B3B28FAAAEF00224A2B /* Login */,
+				E0ADFFC928FA7CAF007A5FC7 /* Task_management */,
+				E0ADFFC828FA7CA6007A5FC7 /* Forum */,
+				E0ADFFC728FA7C80007A5FC7 /* Anonymous_rating */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E0ADFFC728FA7C80007A5FC7 /* Anonymous_rating */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6744328FA84DC009C805F /* ManagerViewModel.swift */,
+			);
+			path = Anonymous_rating;
+			sourceTree = "<group>";
+		};
+		E0ADFFC828FA7CA6007A5FC7 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				E02FDAFC28FD271B00C03D05 /* Forum.swift */,
+				E02FDAFE28FD272900C03D05 /* TreeHoleForum.swift */,
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		E0ADFFC928FA7CAF007A5FC7 /* Task_management */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6744B28FA854B009C805F /* ProjectViewModel.swift */,
+				E0C6744C28FA854B009C805F /* TaskManager.swift */,
+			);
+			path = Task_management;
+			sourceTree = "<group>";
+		};
+		E0ADFFD828FA7D02007A5FC7 /* Anonymous_rating */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFDF28FA7D57007A5FC7 /* ManagerRating.swift */,
+				E0ADFFE128FA7D57007A5FC7 /* ManagerRatingList.swift */,
+				E0ADFFE228FA7D57007A5FC7 /* ManagerView.swift */,
+				E0ADFFE028FA7D57007A5FC7 /* starRating.swift */,
+				E0ADFFDE28FA7D57007A5FC7 /* WriteRating.swift */,
+			);
+			path = Anonymous_rating;
+			sourceTree = "<group>";
+		};
+		E0ADFFD928FA7D15007A5FC7 /* FlameLet */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFE828FA7D61007A5FC7 /* FlameLetView.swift */,
+			);
+			path = FlameLet;
+			sourceTree = "<group>";
+		};
+		E0ADFFDA28FA7D22007A5FC7 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADFFED28FA7D6A007A5FC7 /* NewPostTest.swift */,
+				E0ADFFF328FA7D6A007A5FC7 /* NewPostTree.swift */,
+				E0ADFFEF28FA7D6A007A5FC7 /* PostList.swift */,
+				E02FDB0A28FD2AA600C03D05 /* PostRow.swift */,
+				E02FDB0C28FD2C0E00C03D05 /* PostDetail.swift */,
+				E02FDB0628FD27B600C03D05 /* PostDetailRow.swift */,
+				E02FDB0228FD278B00C03D05 /* treeHole.swift */,
+				E02FDB0428FD279D00C03D05 /* ShareTime.swift */,
+				E02FDB0828FD27C900C03D05 /* PostDetailTreeHole.swift */,
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		E0ADFFDB28FA7D2C007A5FC7 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				39E8FFE928FC1C4B00DCBCB9 /* LoginView.swift */,
+				39E8FFE328FBD5CC00DCBCB9 /* UserInfo.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		E0ADFFDC28FA7D39007A5FC7 /* main_Page */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD001428FA7DA4007A5FC7 /* Home.swift */,
+				E0AD001228FA7D91007A5FC7 /* MainPage.swift */,
+				A8A77FBD28FC285A00C666BA /* personView.swift */,
+				A80CA22528FD01B50082881A /* receivedCommentView.swift */,
+			);
+			path = main_Page;
+			sourceTree = "<group>";
+		};
+		E0ADFFDD28FA7D48007A5FC7 /* Task_management */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD000628FA7D84007A5FC7 /* AddProjectView.swift */,
+				E0AD000528FA7D84007A5FC7 /* AddTaskView.swift */,
+				E0AD000728FA7D84007A5FC7 /* CalendarAddTaskView.swift */,
+				E0AD000128FA7D84007A5FC7 /* CalendarView.swift */,
+				E0AD000228FA7D84007A5FC7 /* SingleProjectView.swift */,
+				E0AD000428FA7D84007A5FC7 /* SingleTaskView.swift */,
+				E0AD000828FA7D84007A5FC7 /* TaskAchievementsView.swift */,
+				E0AD000328FA7D84007A5FC7 /* TaskManagerView.swift */,
+				E0AD000028FA7D84007A5FC7 /* TaskWithFlemateView.swift */,
+			);
+			path = Task_management;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0ADFFB228FA7C30007A5FC7 /* FlameLet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0ADFFC128FA7C31007A5FC7 /* Build configuration list for PBXNativeTarget "FlameLet" */;
+			buildPhases = (
+				E0ADFFAF28FA7C30007A5FC7 /* Sources */,
+				E0ADFFB028FA7C30007A5FC7 /* Frameworks */,
+				E0ADFFB128FA7C30007A5FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlameLet;
+			packageProductDependencies = (
+				E0AD002A28FA7F94007A5FC7 /* Realm */,
+				E0AD002C28FA7F94007A5FC7 /* RealmSwift */,
+				E0AD002F28FA8029007A5FC7 /* Alamofire */,
+			);
+			productName = FlameLet;
+			productReference = E0ADFFB328FA7C30007A5FC7 /* FlameLet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0ADFFAB28FA7C30007A5FC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E0ADFFB228FA7C30007A5FC7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E0ADFFAE28FA7C30007A5FC7 /* Build configuration list for PBXProject "FlameLet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0ADFFAA28FA7C30007A5FC7;
+			packageReferences = (
+				E0AD002928FA7F94007A5FC7 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				E0AD002E28FA8029007A5FC7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = E0ADFFB428FA7C30007A5FC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0ADFFB228FA7C30007A5FC7 /* FlameLet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0ADFFB128FA7C30007A5FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ADFFBE28FA7C31007A5FC7 /* Preview Assets.xcassets in Resources */,
+				E0ADFFBB28FA7C31007A5FC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0ADFFAF28FA7C30007A5FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E8FFEC28FC1C5D00DCBCB9 /* LoginViewModel.swift in Sources */,
+				E02FDB0528FD279D00C03D05 /* ShareTime.swift in Sources */,
+				E0AD001C28FA7DF7007A5FC7 /* manager.swift in Sources */,
+				E0AD000D28FA7D84007A5FC7 /* SingleTaskView.swift in Sources */,
+				39E8FFEA28FC1C4B00DCBCB9 /* LoginView.swift in Sources */,
+				E0AD000F28FA7D84007A5FC7 /* AddProjectView.swift in Sources */,
+				E02FDB0328FD278B00C03D05 /* treeHole.swift in Sources */,
+				E02FDB0128FD275C00C03D05 /* Post.swift in Sources */,
+				E0AD000E28FA7D84007A5FC7 /* AddTaskView.swift in Sources */,
+				E0AD002828FA7E09007A5FC7 /* Project.swift in Sources */,
+				E0ADFFB928FA7C30007A5FC7 /* ContentView.swift in Sources */,
+				E02FDAFF28FD272900C03D05 /* TreeHoleForum.swift in Sources */,
+				E0AD001328FA7D91007A5FC7 /* MainPage.swift in Sources */,
+				E0AD001028FA7D84007A5FC7 /* CalendarAddTaskView.swift in Sources */,
+				E02FDB0D28FD2C0E00C03D05 /* PostDetail.swift in Sources */,
+				A8A77FBE28FC285A00C666BA /* personView.swift in Sources */,
+				E0ADFFF728FA7D6A007A5FC7 /* NewPostTest.swift in Sources */,
+				E0C6744E28FA854B009C805F /* TaskManager.swift in Sources */,
+				E0ADFFE428FA7D57007A5FC7 /* ManagerRating.swift in Sources */,
+				E0AD002728FA7E09007A5FC7 /* CalendarDate.swift in Sources */,
+				E0ADFFE328FA7D57007A5FC7 /* WriteRating.swift in Sources */,
+				E0ADFFB728FA7C30007A5FC7 /* FlameLetApp.swift in Sources */,
+				A80CA22628FD01B50082881A /* receivedCommentView.swift in Sources */,
+				E0AD002028FA7E00007A5FC7 /* ColorExtension.swift in Sources */,
+				E0AD000928FA7D84007A5FC7 /* TaskWithFlemateView.swift in Sources */,
+				E02FDB0B28FD2AA600C03D05 /* PostRow.swift in Sources */,
+				E0C6744428FA84DC009C805F /* ManagerViewModel.swift in Sources */,
+				E0AD001128FA7D84007A5FC7 /* TaskAchievementsView.swift in Sources */,
+				E0ADFFF928FA7D6A007A5FC7 /* PostList.swift in Sources */,
+				E0AD001628FA7DA4007A5FC7 /* Home.swift in Sources */,
+				E0AD000B28FA7D84007A5FC7 /* SingleProjectView.swift in Sources */,
+				E02FDB0728FD27B600C03D05 /* PostDetailRow.swift in Sources */,
+				E0ADFFE728FA7D57007A5FC7 /* ManagerView.swift in Sources */,
+				E0AD002228FA7E00007A5FC7 /* PostPage.swift in Sources */,
+				E0ADFFE628FA7D57007A5FC7 /* ManagerRatingList.swift in Sources */,
+				E02FDAFD28FD271B00C03D05 /* Forum.swift in Sources */,
+				E0AD000A28FA7D84007A5FC7 /* CalendarView.swift in Sources */,
+				E0ADFFE928FA7D61007A5FC7 /* FlameLetView.swift in Sources */,
+				E0C6744D28FA854B009C805F /* ProjectViewModel.swift in Sources */,
+				E02FDB0928FD27C900C03D05 /* PostDetailTreeHole.swift in Sources */,
+				E0AD000C28FA7D84007A5FC7 /* TaskManagerView.swift in Sources */,
+				E0ADFFE528FA7D57007A5FC7 /* starRating.swift in Sources */,
+				E0AD002628FA7E09007A5FC7 /* Task.swift in Sources */,
+				39E8FFE428FBD5CC00DCBCB9 /* UserInfo.swift in Sources */,
+				E0ADFFFD28FA7D6A007A5FC7 /* NewPostTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E0ADFFBF28FA7C31007A5FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0ADFFC028FA7C31007A5FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0ADFFC228FA7C31007A5FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlameLet/Preview Content\"";
+				DEVELOPMENT_TEAM = 66G52825PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FlameLet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0ADFFC328FA7C31007A5FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlameLet/Preview Content\"";
+				DEVELOPMENT_TEAM = 66G52825PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FlameLet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0ADFFAE28FA7C30007A5FC7 /* Build configuration list for PBXProject "FlameLet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ADFFBF28FA7C31007A5FC7 /* Debug */,
+				E0ADFFC028FA7C31007A5FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0ADFFC128FA7C31007A5FC7 /* Build configuration list for PBXNativeTarget "FlameLet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ADFFC228FA7C31007A5FC7 /* Debug */,
+				E0ADFFC328FA7C31007A5FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0AD002928FA7F94007A5FC7 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+		E0AD002E28FA8029007A5FC7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0AD002A28FA7F94007A5FC7 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0AD002928FA7F94007A5FC7 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		E0AD002C28FA7F94007A5FC7 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0AD002928FA7F94007A5FC7 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		E0AD002F28FA8029007A5FC7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0AD002E28FA8029007A5FC7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E0ADFFAB28FA7C30007A5FC7 /* Project object */;
+}
